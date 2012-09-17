@@ -1,0 +1,57 @@
+@import url(../../core/base.css);
+@media all {
+	
+	body {
+		background:url("../img/bg-body.gif") repeat scroll 0 0 #EFEFEF;
+		overflow-y: scroll;
+	}
+
+	/* Layout Module Configuration */
+	.dp_wrapper {
+		min-width: 760px;
+		max-width: 80em;
+		margin: 0 auto;
+	}	
+	.dp_wright .dp_wrapper{
+		margin: 0 0 0 auto;
+	}
+	.dp_wleft .dp_wrapper{
+		margin: 0 auto 0 0;
+	}
+	
+	.dp_wcontainer { padding: 10px; }
+	
+	#header_wrapper .dp_wcontainer, 
+	#footer_wrapper .dp_wcontainer {
+		padding:0;
+	}	
+}
+
+@media screen and ( max-width: 740px ) {
+	#beforeHeader_wrapper {
+		width:90em;
+	}
+}
+
+@media screen and ( max-width: 480px) {
+	#beforeHeader_wrapper {
+		width:100em;
+	}
+}
+
+@media screen and ( min-width: 0px ) {
+
+	body > header,
+	body > #beforeHeader_wrapper,
+	body > #afterHeader_wrapper,
+	body > #header_wrapper,
+	body > #beforeFooter_wrapper,
+	body > #afterFooter_wrapper,
+	body > #footer_wrapper,
+	body > nav,
+	body > #main_wrapper,
+	body > footer {
+		min-width: 0;
+	}
+}
+

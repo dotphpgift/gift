@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<category id="error">
+	<entry id="{path} is not a valid directory">{path} is not a valid directory</entry>
+</category>

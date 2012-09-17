@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<category id="usermodule">
+	<entry id="username">Username</entry>
+	<entry id="password">Password</entry>
+	<entry id="rememberMeNextTime">Remember Me Next Time</entry>
+</category>

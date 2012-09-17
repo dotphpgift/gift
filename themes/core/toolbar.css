@@ -1,0 +1,16 @@
+@media all {
+	.dp_toolbar{
+		line-height:40px;
+		height:40px;
+		*position: relative;
+  		*z-index: 2;
+		border-bottom:1px solid;
+		/*overflow:hidden;*/
+	}
+	.logo a {
+		display:block; line-height:40px;
+	}
+	.logo a img {
+		vertical-align:middle;
+	}
+}
